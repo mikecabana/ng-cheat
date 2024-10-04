@@ -1,0 +1,30 @@
+{
+  "name": "ng-cheat",
+  "version": "1.0.0",
+  "main": "bin/main.js",
+  "bin": {
+    "ngc": "bin/main.js"
+  },
+  "scripts": {
+    "watch": "tsc -w"
+  },
+  "keywords": [
+    "cli",
+    "angular",
+    "ng",
+    "commands"
+  ],
+  "author": "Michael Cabana <mikeyc343@gmail.com>",
+  "license": "MIT",
+  "description": "CLI shortcuts for really long Angular commands",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "yargs": "^17.7.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.7.4",
+    "@types/yargs": "^17.0.33",
+    "tsx": "^4.19.1",
+    "typescript": "^5.6.2"
+  }
+}
